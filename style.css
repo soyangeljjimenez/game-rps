@@ -39,8 +39,7 @@ button:hover {
 }
 
 .result {
-	display: flex;
-	justify-content: space-around;
+	display: block;
 	border-radius: 20px;
 	padding: 10px;
 	width: 70%;
