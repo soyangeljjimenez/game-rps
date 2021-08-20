@@ -11,10 +11,10 @@ body { display: block; }
 	border: 1px solid black;
 	border-radius: 70px;
 	margin-top: 50px;
-	position: relative;
+	position: absolute;
 }
 
-h1 { font-size: 40px; font-weight: 300; font-style: italic; }
+h1 { font-size: 40px; font-weight: 300; font-style: italic; position: top; }
 
 #choices{
 	display: flex;
