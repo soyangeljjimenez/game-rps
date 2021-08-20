@@ -11,6 +11,7 @@ body { display: block; }
 	border: 1px solid black;
 	border-radius: 70px;
 	margin-top: 50px;
+	position: relative;
 }
 
 h1 { font-size: 40px; font-weight: 300; font-style: italic; }
@@ -22,6 +23,7 @@ h1 { font-size: 40px; font-weight: 300; font-style: italic; }
 	width: 50%;
 	margin: 30px;
 	height: 70px;
+	position: absolute;
 }
 
 button {
@@ -39,7 +41,7 @@ button:hover {
 }
 
 .result {
-	display: block;
+	position: absolute;
 	border-radius: 20px;
 	padding: 10px;
 	width: 70%;
