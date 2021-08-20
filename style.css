@@ -11,10 +11,9 @@ body { display: block; }
 	border: 1px solid black;
 	border-radius: 70px;
 	margin-top: 50px;
-	position: absolute;
 }
 
-h1 { font-size: 40px; font-weight: 300; font-style: italic; position: top; }
+h1 { font-size: 40px; font-weight: 300; font-style: italic; }
 
 #choices{
 	display: flex;
@@ -40,7 +39,7 @@ button:hover {
 }
 
 .result {
-	position: bottom;
+	display: flex;
 	border-radius: 20px;
 	padding: 10px;
 	width: 70%;
